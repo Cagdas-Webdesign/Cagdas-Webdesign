@@ -1,163 +1,217 @@
 <div align="center">
 
-# 👋 Hey, ich bin Çağdaş
+👋 Hey, ich bin Çağdaş
 
-### Web Designer & Frontend Developer
+Web Designer & Frontend Developer
 
-**Ich entwickle moderne Web Experiences mit starken Interfaces, flüssigen Animationen und durchdachter Technik.**
+Ich entwickle moderne Web Experiences mit starken Interfaces, flüssigen Animationen und durchdachter Technik.
 
 <br>
 
-[🌐 Portfolio](https://cagdas-webdesign.github.io/Cagdas-Portfolio/) ·
-[💻 GitHub](https://github.com/Cagdas-Webdesign) ·
-[📧 E-Mail](mailto:ucar.cagdas@protonmail.com)
+
 
 </div>
 
----
+✦ Über mich
 
-## ✦ Über mich
+Ich verbinde Frontend Development, UI Design, Motion und Automation zu modernen digitalen Produkten.
 
-Ich verbinde **Frontend Development**, **UI Design**, **Motion** und **Automation** zu digitalen Produkten, die klar funktionieren und visuell im Gedächtnis bleiben.
+Interaktive Websites und Landingpages
 
-- Moderne Websites und Landingpages
-- Interaktive React-Oberflächen
-- GSAP- und ScrollTrigger-Animationen
-- Responsive Design und Design-Systeme
-- APIs, Cloud-Dienste und AI-Workflows
+React-Komponenten und responsive Interfaces
 
-> Mein Anspruch: hochwertige Gestaltung, saubere Struktur und Technik, die zuverlässig funktioniert.
+GSAP-, ScrollTrigger- und Motion-Erlebnisse
 
----
+UI/UX, Glassmorphism und Design-Systeme
 
-## 🧩 Tech Stack
+APIs, Cloud-Dienste und AI-Workflows
 
-<table>
-<tr>
-<td width="50%" valign="top"><img src="./assets/cards/frontend.svg" alt="Frontend Tech Stack" width="100%"></td>
-<td width="50%" valign="top"><img src="./assets/cards/motion.svg" alt="Motion and Interaction Tech Stack" width="100%"></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><img src="./assets/cards/backend.svg" alt="Backend and Platforms Tech Stack" width="100%"></td>
-<td width="50%" valign="top"><img src="./assets/cards/design.svg" alt="UI and Design Tech Stack" width="100%"></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><img src="./assets/cards/automation.svg" alt="AI and Automation Tech Stack" width="100%"></td>
-<td width="50%" valign="top"><img src="./assets/cards/tools.svg" alt="Tools and Cloud Tech Stack" width="100%"></td>
-</tr>
-</table>
+Mein Anspruch: hochwertiges Design, saubere Struktur und Technik, die zuverlässig funktioniert.
 
----
+🧩 Tech Stack
 
-## 🌟 Featured Project
+💻 Frontend
 
-### Çağdaş Portfolio
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,ts&theme=dark" alt="Frontend Technologien" />
+</p>
+
+HTML5 · CSS3 · JavaScript · React · Next.js · Tailwind CSS · TypeScript
+
+✨ Motion, UI & Design
+
+<p>
+  <img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Design Tools" />
+</p>
+
+
+
+⚙️ Backend, APIs & Plattformen
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,java,cloudflare,wordpress&theme=dark" alt="Backend und Plattformen" />
+</p>
+
+
+
+🤖 Tools & Automation
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm,vercel&theme=dark" alt="Tools und Deployment" />
+</p>
+
+
+
+🌟 Featured Project
+
+Çağdaş Portfolio
 
 Eine interaktive Portfolio-Website, die modernes Frontend Development, Motion Design und visuelles Storytelling miteinander verbindet.
 
-**Highlights**
+Highlights
 
-`React` · `GSAP` · `ScrollTrigger` · `Framer Motion` · `Glassmorphism` · `Liquid Glass` · `Responsive Design`
+React-Komponentenarchitektur
 
-- Komponentenbasierte React-Architektur
-- Interaktive Service- und Projektbereiche
-- Social- und Automation-Showcases
-- Parallax- und Scroll-Erlebnisse
-- Fokus auf Performance und mobile Darstellung
+GSAP- und ScrollTrigger-Animationen
 
-[🌐 Live Portfolio ansehen](https://cagdas-webdesign.github.io/Cagdas-Portfolio/) ·
-[💻 Repository öffnen](https://github.com/Cagdas-Webdesign/Cagdas-Portfolio)
+Liquid Glass und Glassmorphism
 
----
+Responsive Desktop- und Mobile-Layouts
 
-<img src="./assets/focus.svg" alt="Aktueller Fokus" width="100%">
+Social- und Automation-Showcases
 
----
+Interaktive Service-Popups
+
+Fokus auf Performance und Nutzererlebnis
+
+React · JavaScript · CSS · GSAP · ScrollTrigger · Framer Motion
+
+
+
+🚀 Aktueller Fokus
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+⚛️ React
+
+Komponenten und moderne Frontend-Architektur
+
+</td>
+<td align="center" width="25%">
+
+✨ Motion
+
+GSAP, ScrollTrigger und Microinteractions
+
+</td>
+<td align="center" width="25%">
+
+🎨 UI Systems
+
+Konsistente Interfaces und Design-Systeme
+
+</td>
+<td align="center" width="25%">
+
+🤖 Automation
+
+AI-Workflows und intelligente Prozesse
+
+</td>
+</tr>
+</table>
 
 <details>
 <summary><strong>💡 Was ich entwickle</strong></summary>
 
 <br>
 
-### Websites & Landingpages
-Moderne, responsive Webauftritte mit klarer Nutzerführung und hochwertiger visueller Präsentation.
+Websites & LandingpagesModerne, responsive Webauftritte mit klarer Nutzerführung.
 
-### Portfolio-Websites
-Individuelle digitale Auftritte mit Persönlichkeit, Motion und technischer Tiefe.
+Portfolio-WebsitesIndividuelle digitale Auftritte mit Persönlichkeit und Motion.
 
-### UI-Komponenten & Design-Systeme
-Wiederverwendbare Komponenten, konsistente Abstände, Typografie und Interaktionsmuster.
+UI-Komponenten & Design-SystemeWiederverwendbare Komponenten, Typografie und Interaktionsmuster.
 
-### Web Animationen
-GSAP, ScrollTrigger, Framer Motion, Microinteractions und visuelle Scroll-Erlebnisse.
+Web AnimationenGSAP, ScrollTrigger, Framer Motion und Microinteractions.
 
-### AI Workflows & Automation
-Automatisierungen, Chatbots, Cloud-Prozesse und intelligente Integrationen.
+AI Workflows & AutomationAutomatisierungen, Chatbots und Cloud-Prozesse.
 
 </details>
-
----
 
 <details>
 <summary><strong>🧠 Mein Workflow</strong></summary>
 
 <br>
 
-**01 — Analyse**  
-Ziel, Zielgruppe und Anforderungen verstehen.
+01 — AnalyseZiel, Zielgruppe und Anforderungen verstehen.
 
-**02 — Design**  
-Struktur, visuelle Richtung und Benutzerführung entwickeln.
+02 — DesignStruktur, visuelle Richtung und Benutzerführung entwickeln.
 
-**03 — Entwicklung**  
-Responsive Komponenten und Interaktionen umsetzen.
+03 — EntwicklungResponsive Komponenten und Interaktionen umsetzen.
 
-**04 — Motion**  
-Animationen gezielt einsetzen, ohne die Benutzerführung zu überladen.
+04 — MotionAnimationen gezielt und funktional einsetzen.
 
-**05 — Optimierung**  
-Performance, mobile Darstellung und Bedienbarkeit verbessern.
+05 — OptimierungPerformance, mobile Darstellung und Bedienbarkeit verbessern.
 
-**06 — Automation**  
-Sinnvolle Prozesse mit APIs, Cloud-Diensten und KI verbinden.
+06 — AutomationAPIs, Cloud-Dienste und KI sinnvoll verbinden.
 
 </details>
 
----
-
 <details>
-<summary><strong>🎯 Ziele für 2026</strong></summary>
+<summary><strong>🚀 Lösungen & Automationen</strong></summary>
 
 <br>
 
-- [x] Eigenes modernes Portfolio entwickeln
-- [x] React praktisch in Projekten einsetzen
-- [x] GSAP und ScrollTrigger integrieren
-- [x] Automatisierungen und KI-Workflows umsetzen
-- [ ] Größere React-Projekte veröffentlichen
-- [ ] Wiederverwendbares UI-System aufbauen
-- [ ] Eigene Open-Source-Komponenten veröffentlichen
-- [ ] Weitere professionelle Kundenprojekte realisieren
+🌐 Websites & Landingpages
+
+Moderne, responsive Websites mit klarer Nutzerführung, hochwertigem UI-Design und flüssigen Animationen.
+
+📱 Social-Media-Automation
+
+Automatisierte Abläufe für Content-Planung, Veröffentlichung und plattformübergreifende Prozesse auf Social Media.
+
+✉️ Newsletter & E-Mail-Workflows
+
+Automatisierte Newsletter, Kontaktstrecken, Follow-ups und strukturierte E-Mail-Prozesse.
+
+🤖 AI-Chatbots & Assistenten
+
+Intelligente Chatbots für Websites, Kundenanfragen, Informationsbereitstellung und wiederkehrende Aufgaben.
+
+🔗 API- & Cloud-Integrationen
+
+Verknüpfung von Websites, Formularen, Plattformen und Cloud-Diensten über APIs und automatisierte Workflows.
+
+🧩 UI-Systeme & Komponenten
+
+Wiederverwendbare Komponenten, konsistente Design-Systeme und moderne Benutzeroberflächen.
+
+📊 Lead- & Kundenprozesse
+
+Automatisierte Erfassung, Sortierung und Weiterleitung von Anfragen, Leads und Kundendaten.
+
+⚡ Individuelle Workflows
+
+Maßgeschneiderte Lösungen mit Zapier, n8n, Cloudflare Workers und modernen AI-Tools.
 
 </details>
 
----
-
-## 📫 Kontakt
+📫 Kontakt
 
 <div align="center">
 
-[📧 **ucar.cagdas@protonmail.com**](mailto:ucar.cagdas@protonmail.com)
 
-[🌐 **Portfolio öffnen**](https://cagdas-webdesign.github.io/Cagdas-Portfolio/) ·
-[💻 **GitHub ansehen**](https://github.com/Cagdas-Webdesign)
+
+
 
 <br>
 
-### Modern Web Experiences.
+Modern Web Experiences.
 
-`Design` × `Development` × `Motion` × `Automation`
+Design × Development × Motion × Automation
 
-**© 2026 Çağdaş**
+© 2026 Çağdaş
 
 </div>
