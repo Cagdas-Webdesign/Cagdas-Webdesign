@@ -1,161 +1,362 @@
 <div align="center">
 
-<img src="./assets/cagdas-banner.png" alt="Çağdaş — Web Designer & Frontend Developer" width="100%" />
+# 👋 Hey, ich bin Çağdaş
 
-<br />
+### Web Designer & Frontend Developer
 
-Çağdaş
+**Ich entwickle moderne Web Experiences mit starken Interfaces, flüssigen Animationen und durchdachter Technik.**
 
-Web Designer & Frontend Developer
+<br>
 
-Ich entwickle moderne Websites, Landingpages und Web-Apps mit Fokus auf Performance, Animationen, UI/UX und Automatisierungen.
+[🌐 Portfolio](https://cagdas-webdesign.github.io/Cagdas-Portfolio/) ·
+[💻 GitHub](https://github.com/Cagdas-Webdesign) ·
+[📧 E-Mail](mailto:ucar.cagdas@protonmail.com)
 
-Mein Ziel ist es, digitale Produkte zu entwickeln, die technisch sauber funktionieren und visuell im Gedächtnis bleiben.
+<br>
 
-<br />
-
-
-
-</div>
-
-Über mich
-
-Ich verbinde Frontend-Entwicklung, modernes Interface-Design und Automatisierungen zu hochwertigen digitalen Erlebnissen. Mein Schwerpunkt liegt auf klarer visueller Führung, flüssigen Animationen, responsiven Layouts und performanter Umsetzung.
-
-Design            → klare Interfaces, moderne Ästhetik, starke visuelle Hierarchie
-Development       → React, TypeScript, JavaScript, CSS und komponentenbasierte Systeme
-Motion            → GSAP, ScrollTrigger, Framer Motion und interaktive Übergänge
-Automation        → APIs, Cloudflare Workers, Zapier, n8n und KI-Workflows
-
-Tech Stack
-
-Frontend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend Tech Stack" />
-</p>
-
-Animation, UI & Design
-
-<p>
-  <img src="https://skillicons.dev/icons?i=figma" alt="Figma" />
-  <img src="https://img.shields.io/badge/GSAP-0AE448?style=for-the-badge&logo=greensock&logoColor=050505" alt="GSAP" />
-  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
-  <img src="https://img.shields.io/badge/UI%2FUX-111827?style=for-the-badge&logo=figma&logoColor=A78BFA" alt="UI UX Design" />
-  <img src="https://img.shields.io/badge/Responsive%20Design-111827?style=for-the-badge&logo=googlechrome&logoColor=60A5FA" alt="Responsive Design" />
-</p>
-
-Backend, APIs & Plattformen
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,cloudflare,vercel,wordpress" alt="Backend and Platforms" />
-  <img src="https://img.shields.io/badge/REST%20APIs-111827?style=for-the-badge&logo=fastapi&logoColor=22D3EE" alt="REST APIs" />
-</p>
-
-Tools & Automation
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm" alt="Development Tools" />
-  <img src="https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logo=zapier&logoColor=white" alt="Zapier" />
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Cursor%20AI-111111?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor AI" />
-</p>
-
-Ausgewähltes Projekt
-
-<a href="https://github.com/Cagdas-Webdesign/Cagdas-Portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cagdas-Webdesign&repo=Cagdas-Portfolio&theme=transparent&hide_border=true&title_color=A78BFA&text_color=C9D1D9&icon_color=60A5FA&bg_color=00000000" alt="Cagdas Portfolio Repository" />
-</a>
-
-Cagdas Portfolio
-
-Mein Hauptprojekt ist ein interaktives Portfolio mit:
-
-GSAP und ScrollTrigger
-
-Parallax-Effekten
-
-Glassmorphism und Liquid-Glass-Flächen
-
-responsivem Komponenten-System
-
-modernen Cards und Showcase-Bereichen
-
-Social-Media- und Automation-Präsentationen
-
-Chatbot-Bereich
-
-Fokus auf Performance und visuelle Qualität
-
-Repository öffnen · Live ansehen
-
-Woran ich arbeite
-
-moderne Unternehmenswebsites
-
-performante Landingpages
-
-interaktive Portfolio-Websites
-
-Social-Media-Automatisierungen
-
-KI-Workflows und Chatbots
-
-Design-Systeme und UI-Komponenten
-
-responsive, animierte Web-Erlebnisse
-
-GitHub Statistiken
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Cagdas-Webdesign&show_icons=true&theme=transparent&hide_border=true&title_color=A78BFA&text_color=C9D1D9&icon_color=60A5FA&ring_color=8B5CF6&bg_color=00000000" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cagdas-Webdesign&layout=compact&theme=transparent&hide_border=true&title_color=A78BFA&text_color=C9D1D9&bg_color=00000000" alt="Top Languages" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=Cagdas-Webdesign&theme=transparent&hide_border=true&stroke=30363D&ring=8B5CF6&fire=A78BFA&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&background=00000000" alt="GitHub Streak" />
+`React` · `TypeScript` · `GSAP` · `UI/UX` · `Automation`
 
 </div>
 
-Die Sprachkarte zeigt nur die Verteilung des öffentlich sichtbaren Codes und ist keine Bewertung meiner gesamten Erfahrung.
+---
 
-Contributions
+## ✦ Über mich
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cagdas-Webdesign/Cagdas-Webdesign/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cagdas-Webdesign/Cagdas-Webdesign/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Cagdas-Webdesign/Cagdas-Webdesign/output/github-contribution-grid-snake.svg" />
-</picture>
+Ich entwickle hochwertige Websites, Landingpages und Web-Apps mit einem besonderen Fokus auf:
 
-Ziele 2026
+<table>
+<tr>
+<td width="50%" valign="top">
 
-mein Portfolio auf Senior-Frontend-Niveau finalisieren
+### 🎨 Design
 
-React- und TypeScript-Projekte weiter ausbauen
+- Moderne Benutzeroberflächen
+- Responsive Webdesign
+- UI- und UX-Konzeption
+- Glassmorphism und Liquid Glass
+- Komponenten und Design-Systeme
 
-wiederverwendbare UI-Komponenten und Design-Systeme entwickeln
+</td>
+<td width="50%" valign="top">
 
-Automatisierungen mit APIs, n8n und Cloudflare vertiefen
+### ⚡ Entwicklung
 
-Open-Source-Projekte professionell dokumentieren
+- Performante Frontends
+- Interaktive Animationen
+- Wiederverwendbare Komponenten
+- API- und Cloud-Integrationen
+- KI-gestützte Automatisierungen
 
-mehr produktionsreife Projekte öffentlich veröffentlichen
+</td>
+</tr>
+</table>
 
-Kontakt
+> Mein Ziel ist es, digitale Produkte zu entwickeln, die technisch zuverlässig sind und gleichzeitig visuell im Gedächtnis bleiben.
 
-Derzeit erreichst du mich direkt über mein GitHub-Profil und meine öffentlichen Repositories:
+---
 
+## 🧩 Tech Stack
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💻 Frontend
+
+`HTML5`  
+`CSS3`  
+`JavaScript ES6+`  
+`TypeScript`  
+`React`  
+`Next.js`  
+`Tailwind CSS`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎞️ Motion & Interaction
+
+`GSAP`  
+`ScrollTrigger`  
+`Framer Motion`  
+`Parallax`  
+`Microinteractions`  
+`Scroll Experiences`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ Backend & Plattformen
+
+`Node.js`  
+`Java`  
+`REST APIs`  
+`Cloudflare Workers`  
+`WordPress`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎨 UI & Design
+
+`Figma`  
+`Canva`  
+`UI/UX Design`  
+`Responsive Design`  
+`Glassmorphism`  
+`Apple-inspired UI`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 AI & Automation
+
+`ChatGPT`  
+`Claude Code`  
+`Cursor AI`  
+`Zapier`  
+`n8n`  
+`AI Workflows`
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ Tools & Cloud
+
+`Git`  
+`GitHub`  
+`VS Code`  
+`npm`  
+`Vercel`  
+`Cloudflare`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌟 Featured Project
+
+<table>
+<tr>
+<td valign="top">
+
+### Çağdaş Portfolio
+
+Eine interaktive Portfolio-Website, die modernes Frontend Development, Motion Design und visuelles Storytelling miteinander verbindet.
+
+**Highlights**
+
+- GSAP- und ScrollTrigger-Animationen
+- React-Komponentenarchitektur
+- Liquid-Glass- und Glassmorphism-Oberflächen
+- Responsive Desktop- und Mobile-Layouts
+- Social-Media-Showcase
+- Automation- und AI-Bereiche
+- Interaktive Service-Popups
+- Parallax- und Scroll-Experiences
+- Fokus auf Performance und Benutzererlebnis
+
+**Technologien**
+
+`React` · `JavaScript` · `CSS` · `GSAP` · `ScrollTrigger` · `Framer Motion`
+
+<br>
+
+[🌐 Live Portfolio ansehen](https://cagdas-webdesign.github.io/Cagdas-Portfolio/)  
+[💻 Repository öffnen](https://github.com/Cagdas-Webdesign/Cagdas-Portfolio)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Was ich entwickle
+
+| Bereich | Fokus |
+|---|---|
+| 🌐 Unternehmenswebsites | Moderne, responsive und professionelle Webauftritte |
+| 🎯 Landingpages | Klare Nutzerführung und visuell starke Präsentationen |
+| 🧑‍💻 Portfolio-Websites | Individuelle digitale Auftritte mit Persönlichkeit |
+| 🎨 UI-Komponenten | Wiederverwendbare und konsistente Interface-Systeme |
+| 🎞️ Web Animationen | GSAP, ScrollTrigger, Motion und Microinteractions |
+| 🤖 AI Workflows | Automatisierungen, Chatbots und intelligente Prozesse |
+| 📱 Social Automation | Verknüpfte Abläufe für Inhalte und Plattformen |
+| 🧩 Design-Systeme | Einheitliche Komponenten, Abstände und Typografie |
+
+---
+
+## 🔬 Aktueller Fokus
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### ⚛️
+
+**React**
+
+Komponenten und moderne Frontend-Architektur
+
+</td>
+<td align="center" width="25%">
+
+### 🟦
+
+**TypeScript**
+
+Stabilere und besser wartbare Anwendungen
+
+</td>
+<td align="center" width="25%">
+
+### ✨
+
+**Motion**
+
+Hochwertige GSAP- und Scroll-Erlebnisse
+
+</td>
+<td align="center" width="25%">
+
+### 🤖
+
+**Automation**
+
+KI-Workflows und intelligente Prozesse
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎯 Ziele für 2026
+
+- [x] Eigenes modernes Portfolio entwickeln
+- [x] React praktisch in Projekten einsetzen
+- [x] GSAP und ScrollTrigger integrieren
+- [x] Automatisierungen und KI-Workflows umsetzen
+- [ ] TypeScript weiter vertiefen
+- [ ] Größere React-Projekte veröffentlichen
+- [ ] Wiederverwendbares UI-System aufbauen
+- [ ] Eigene Open-Source-Komponenten veröffentlichen
+- [ ] Weitere professionelle Kundenprojekte realisieren
+
+---
+
+<details>
+<summary><strong>🧠 Mehr über meinen Workflow</strong></summary>
+
+<br>
+
+### Von der Idee zum digitalen Produkt
+
+**01 — Analyse**  
+Ziel, Zielgruppe und Anforderungen verstehen.
+
+**02 — Design**  
+Struktur, visuelle Richtung und Benutzerführung entwickeln.
+
+**03 — Entwicklung**  
+Responsive Komponenten und Interaktionen umsetzen.
+
+**04 — Motion**  
+Animationen gezielt einsetzen, ohne die Benutzerführung zu überladen.
+
+**05 — Optimierung**  
+Performance, mobile Darstellung und Bedienbarkeit verbessern.
+
+**06 — Automation**  
+Sinnvolle Prozesse mit APIs, Cloud-Diensten und KI verbinden.
+
+</details>
+
+---
+
+<details>
+<summary><strong>🛠️ Technologien im Detail</strong></summary>
+
+<br>
+
+### Frontend Development
+
+`HTML5` `CSS3` `JavaScript` `TypeScript` `React` `Next.js` `Tailwind CSS`
+
+### Motion Design
+
+`GSAP` `ScrollTrigger` `Framer Motion` `Parallax` `Microinteractions`
+
+### Backend und CMS
+
+`Node.js` `Java` `REST APIs` `Cloudflare Workers` `WordPress`
+
+### Design und Prototyping
+
+`Figma` `Canva` `UI/UX` `Responsive Design` `Design Systems`
+
+### Automation und AI
+
+`Zapier` `n8n` `ChatGPT` `Claude Code` `Cursor AI`
+
+### Entwicklung und Deployment
+
+`Git` `GitHub` `VS Code` `npm` `Vercel` `Cloudflare`
+
+</details>
+
+---
+
+## 📫 Kontakt
+
+Du möchtest über ein Projekt, eine Website oder eine Zusammenarbeit sprechen?
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 📧 E-Mail
+
+[ucar.cagdas@protonmail.com](mailto:ucar.cagdas@protonmail.com)
+
+</td>
+<td width="33%" align="center">
+
+### 🌐 Portfolio
+
+[Live Website öffnen](https://cagdas-webdesign.github.io/Cagdas-Portfolio/)
+
+</td>
+<td width="33%" align="center">
+
+### 💻 GitHub
+
+[Cagdas-Webdesign](https://github.com/Cagdas-Webdesign)
+
+</td>
+</tr>
+</table>
+
+---
 
 <div align="center">
 
-Modern Web Experiences
+### Modern Web Experiences.
 
-Design, Code, Motion und Automation in einem System.
+`Design` × `Development` × `Motion` × `Automation`
 
-<sub>Built with curiosity, precision and a strong focus on visual quality.</sub>
+<br>
+
+Entwickelt mit Neugier, Präzision und Begeisterung für moderne digitale Produkte.
+
+**©️ 2026 Çağdaş**
 
 </div>
