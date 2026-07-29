@@ -2,496 +2,468 @@
 
 Çağdaş
 
-Web Designer · Frontend Developer · Automation Specialist
+Web Designer & Frontend Developer
 
-Digitale Produkte mit klarer Struktur, hochwertiger Gestaltung und durchdachter Technik.
-
-<br>
+Moderne Websites, digitale Produkte und automatisierte Workflows mit klarem Design und sauberer Technik.
 
 
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=Cagdas-Webdesign&style=flat-square&color=111111" alt="Profile Views" />
 
 </div>
 
-<div align="center">
+Tech Dashboard
 
-Digital Product Dashboard
+Mein technischer Fokus
 
-<p>
-  Websites, Interfaces, Automation und digitale Systeme — entwickelt mit dem Anspruch einer modernen Produktagentur.
-</p>
+Frontend, Backend, Design und Automation — übersichtlich in klaren Bereichen.
 
-</div>
+Frontend
+
+Moderne Benutzeroberflächen
+
+Responsive Websites, interaktive Komponenten und hochwertige Animationen.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td align="center" width="25%">
 
-🌐 Web Experiences
+<img src="https://skillicons.dev/icons?i=html" width="48" alt="HTML"/>
 
-Websites & Landingpages
+HTML
 
-Responsive, visuell klare und performante digitale Auftritte mit hochwertiger Nutzerführung.
-
-React Next.js GSAP Responsive UI
-
-Portfolio ansehen →
+Semantische Struktur
 
 </td>
-<td width="33%" valign="top">
+<td align="center" width="25%">
 
-📱 Social Systems
+<img src="https://skillicons.dev/icons?i=css" width="48" alt="CSS"/>
 
-Social Media & Content Automation
+CSS
 
-Strukturierte Workflows für Planung, Content-Verteilung, Freigaben und kanalübergreifende Prozesse.
-
-Instagram TikTok LinkedIn Automation
-
-Mehr erfahren ↓
+Layouts & Styling
 
 </td>
-<td width="33%" valign="top">
+<td align="center" width="25%">
 
-✉️ Lifecycle Communication
+<img src="https://skillicons.dev/icons?i=js" width="48" alt="JavaScript"/>
 
-Newsletter & E-Mail-Flows
+JavaScript
 
-Automatisierte Kontaktstrecken, Newsletter-Prozesse und Follow-up-Systeme für klare Kommunikation.
+Interaktionen & Logik
 
-Newsletter CRM Segmente Follow-ups
+</td>
+<td align="center" width="25%">
 
-Mehr erfahren ↓
+<img src="https://skillicons.dev/icons?i=ts" width="48" alt="TypeScript"/>
+
+TypeScript
+
+Strukturierter Code
 
 </td>
 </tr>
 
 <tr>
-<td width="33%" valign="top">
+<td align="center">
 
-⚙️ Backend & APIs
+<img src="https://skillicons.dev/icons?i=react" width="48" alt="React"/>
 
-Java, Node.js & Integrationen
+React
 
-Backend-Grundlagen, API-Anbindungen, Cloud-Logik und datenbasierte Prozessverknüpfungen.
-
-Java Node.js Express REST APIs
-
-Mehr erfahren ↓
+Komponenten & States
 
 </td>
-<td width="33%" valign="top">
+<td align="center">
 
-🤖 Intelligent Workflows
+<img src="https://skillicons.dev/icons?i=nextjs" width="48" alt="Next.js"/>
 
-AI & Automation
+Next.js
 
-Praktische AI-Workflows für Informationsverarbeitung, Assistenzsysteme und wiederkehrende Aufgaben.
-
-n8n Zapier Claude Code ChatGPT
-
-Mehr erfahren ↓
+Moderne Web Apps
 
 </td>
-<td width="33%" valign="top">
+<td align="center">
 
-🎨 Product Interface
+<img src="https://skillicons.dev/icons?i=tailwind" width="48" alt="Tailwind CSS"/>
 
-UI Systems & Motion
+Tailwind CSS
 
-Konsistente Komponenten, klare Hierarchien und Animationen, die die Bedienung unterstützen.
-
-Figma Framer Motion GSAP Design Systems
-
-Mehr erfahren ↓
+Schnelle UI-Systeme
 
 </td>
-</tr>
+<td align="center">
 
-<tr>
-<td width="33%" valign="top">
+<img src="https://cdn.simpleicons.org/greensock/0AE448" width="48" alt="GSAP"/>
 
-☁️ Cloud Connections
+GSAP
 
-Cloudflare & Webhooks
-
-Schlanke Cloud-Logik, Webhooks und Integrationen zwischen Websites, APIs und Plattformen.
-
-Cloudflare Workers JSON Webhooks
-
-Mehr erfahren ↓
-
-</td>
-<td width="33%" valign="top">
-
-🏆 Credentials
-
-Social Media Zertifikat
-
-Nachweisbare Kenntnisse im Bereich Social Media, Content, Plattformlogik und digitale Kommunikation.
-
-Social Media Content Strategy
-
-Details ↓
-
-</td>
-<td width="33%" valign="top">
-
-🚀 Featured Product
-
-Çağdaş Portfolio
-
-Interaktive Portfolio-Plattform mit Motion, responsivem Aufbau und moderner visueller Sprache.
-
-React GSAP ScrollTrigger
-
-Projekt öffnen →
+Motion & Scroll
 
 </td>
 </tr>
 </table>
 
-Technology Ecosystem
+Backend
 
-<div align="center">
+Logik, APIs und serverseitige Abläufe
 
-Frontend
+Backend-Grundlagen für Anwendungen, Integrationen und Datenverarbeitung.
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="Frontend Stack" />
+<table>
+<tr>
+<td align="center" width="25%">
 
-<br><br>
+<img src="https://skillicons.dev/icons?i=java" width="48" alt="Java"/>
 
-Backend & Cloud
+Java
 
-<img src="https://skillicons.dev/icons?i=java,nodejs,express,cloudflare,vercel,npm&theme=dark" alt="Backend and Cloud Stack" />
+OOP & Grundlagen
 
-<br><br>
+</td>
+<td align="center" width="25%">
 
-Product Design & Development
+<img src="https://skillicons.dev/icons?i=nodejs" width="48" alt="Node.js"/>
 
-<img src="https://skillicons.dev/icons?i=figma,git,github,vscode,wordpress&theme=dark" alt="Design and Development Tools" />
+Node.js
 
-<br><br>
+Serverseitiges JavaScript
 
+</td>
+<td align="center" width="25%">
 
+<img src="https://skillicons.dev/icons?i=express" width="48" alt="Express"/>
 
-</div>
+Express
 
-Web Experiences
+APIs & Routing
 
-Websites, Landingpages & digitale Markenauftritte
+</td>
+<td align="center" width="25%">
 
-Ich entwickle digitale Oberflächen, bei denen Gestaltung, Struktur und Technik als ein zusammenhängendes Produkt gedacht werden.
+<img src="https://skillicons.dev/icons?i=npm" width="48" alt="npm"/>
 
-Kenntnisse und Schwerpunkte
+npm
 
-semantischer Aufbau mit HTML, CSS und JavaScript
+Module & Dependencies
 
-komponentenbasierte Entwicklung mit React
+</td>
+</tr>
 
-moderne Frontend-Strukturen mit TypeScript und Next.js
+<tr>
+<td align="center">
 
-responsive Layouts für Desktop, Tablet und Smartphone
+<img src="https://cdn.simpleicons.org/fastapi/009688" width="48" alt="REST API"/>
 
-visuelle Hierarchie, Typografie und konsistente Abstände
+REST APIs
 
-animierte Interfaces mit GSAP, ScrollTrigger und Framer Motion
+Requests & Responses
 
-Landingpages mit klarer Nutzerführung und fokussierten Handlungsaufforderungen
+</td>
+<td align="center">
 
-strukturierte Leistungs-, Projekt- und Kontaktbereiche
+<img src="https://cdn.simpleicons.org/json/FFFFFF" width="48" alt="JSON"/>
 
-technische Performance und saubere Komponentenorganisation
+JSON
 
-WordPress als ergänzende Plattform für redaktionelle Projekte
+Datenaustausch
 
-Typische Lösungen
+</td>
+<td align="center">
 
-Portfolio Websites · Business Websites · Landingpages · Service Pages · Product Showcases · Interactive Experiences
+<img src="https://cdn.simpleicons.org/webhook/FF4F00" width="48" alt="Webhooks"/>
 
-Social Media & Content Systems
+Webhooks
 
-Social-Media-Prozesse mit Struktur statt manueller Einzelarbeit
+Event-basierte Abläufe
 
-Mein Fokus liegt nicht nur auf einzelnen Posts, sondern auf dem gesamten Ablauf hinter der Veröffentlichung.
+</td>
+<td align="center">
 
-Kenntnisse
-
-Content-Planung und strukturierte Themenorganisation
-
-Plattformlogik für Instagram, TikTok, LinkedIn und Facebook
-
-Vorbereitung von Captions, Formaten und Veröffentlichungsvarianten
-
-Freigabeprozesse zwischen Unternehmen, Teams und Kunden
-
-automatische Weiterleitung von Content und Statusmeldungen
-
-Verknüpfung von Formularen, Tabellen, Slack und E-Mail
-
-strukturierte Ablage veröffentlichter Inhalte
-
-Nutzung von Zapier und n8n für wiederkehrende Prozesse
-
-AI-gestützte Texterstellung als unterstützender Bestandteil
-
-Lead-Erfassung aus Social-Media- und Kampagnenprozessen
-
-Mögliche Systeme
-
-Content Pipeline · Approval Flow · Cross-Platform Publishing · Lead Routing · Performance Reporting
-
-Newsletter & E-Mail Automation
-
-Kommunikation, die Kontakte gezielt weiterführt
-
-Newsletter und E-Mail-Prozesse werden als zusammenhängende Customer Journey aufgebaut.
-
-Kenntnisse
-
-Newsletter-Struktur und Content-Aufbereitung
-
-Anbindung von Kontakt- und Anfrageformularen
-
-automatische Willkommensstrecken
-
-zeitbasierte Follow-up-E-Mails
-
-Segmentierung nach Quelle, Interesse oder Status
-
-Übergabe an Tabellen, CRM- oder interne Systeme
-
-interne Benachrichtigungen bei neuen Kontakten
-
-vorbereitete E-Mail-Templates und wiederverwendbare Abläufe
-
-strukturierte Verarbeitung von Anfragen
-
-Kombination von E-Mail, Website und Automation
-
-Einsatzbereiche
-
-Lead Nurturing · Welcome Sequences · Product Updates · Customer Follow-ups · Newsletter Campaigns
-
-Backend & API Engineering
-
-Java, Node.js und serverseitige Grundlagen
-
-Neben der visuellen Oberfläche beschäftige ich mich mit der technischen Logik, die digitale Anwendungen miteinander verbindet.
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,nodejs,express,npm,cloudflare&theme=dark" alt="Backend Technologies" />
-
-</div>
-
-Backend-Kenntnisse
-
-Java-Grundlagen und objektorientiertes Denken
-
-Klassen, Methoden, Datentypen und Kontrollstrukturen
-
-Node.js für serverseitige JavaScript-Anwendungen
-
-Express für einfache API- und Serverstrukturen
-
-npm für Paketverwaltung und Projektabhängigkeiten
-
-REST-API-Grundlagen und HTTP-Methoden
-
-JSON-Verarbeitung und strukturierter Datenaustausch
-
-Request- und Response-Logik
-
-Fehlerbehandlung und Statuscodes
-
-Umgebungsvariablen und grundlegende Konfiguration
-
-Webhooks für ereignisbasierte Prozesse
-
-externe API-Anbindungen
-
-Cloudflare Workers für schlanke serverlose Logik
-
-Git und GitHub für Versionskontrolle und Projektverwaltung
-
-Node.js Module & technische Bausteine
-
-Express · dotenv · cors · fetch · axios · nodemon · webhooks · REST clients
-
-Typische Anwendungen
-
-Formulare serverseitig weiterverarbeiten
-
-Daten aus externen APIs abrufen
-
-Website und Automation verbinden
-
-Requests prüfen und transformieren
-
-Webhook-Daten empfangen
-
-Informationen an andere Systeme weiterleiten
-
-Cloud-Funktionen als Integrationsschicht einsetzen
-
-AI & Workflow Automation
-
-AI als Bestandteil eines klaren Prozesses
-
-AI wird dort eingesetzt, wo sie Abläufe sinnvoll unterstützt: bei Strukturierung, Vorbereitung, Klassifizierung und Informationsverarbeitung.
-
-Kenntnisse und Tools
-
-n8n für visuelle, mehrstufige Workflows
-
-Zapier für schnelle Plattformverknüpfungen
-
-ChatGPT für Text-, Struktur- und Prozessunterstützung
-
-Claude Code für Entwicklungs- und Code-Workflows
-
-Cursor AI als unterstützende Entwicklungsumgebung
-
-Webhooks als Verbindung zwischen Systemen
-
-Datenfilterung, Bedingungen und Routing
-
-automatische Benachrichtigungen
-
-Formulareingänge und Lead-Verarbeitung
-
-strukturierte Übergabe an Slack, E-Mail oder Tabellen
-
-AI-Chatbots für FAQ-, Service- und Informationsbereiche
-
-API-basierte Einbindung von Sprachmodellen
-
-Prinzip
-
-Automation soll Prozesse vereinfachen, nicht unnötig komplizierter machen.
-
-UI Systems & Motion
-
-Hochwertige Oberflächen mit einer konsistenten visuellen Sprache
-
-Ich entwickle Interfaces als System — nicht als Sammlung einzelner Elemente.
-
-Kenntnisse
-
-Aufbau wiederverwendbarer UI-Komponenten
-
-Gestaltung konsistenter Buttons, Cards und Navigationen
-
-Typografie-Systeme und visuelle Hierarchie
-
-responsive Komponentenvarianten
-
-Hover-, Focus-, Active- und Disabled-States
-
-Motion Design mit GSAP und Framer Motion
-
-Scroll-Animationen mit ScrollTrigger
-
-klare Übergänge zwischen Inhaltsbereichen
-
-Figma für Layout, Struktur und visuelle Konzeption
-
-Design-Systeme für langfristige Erweiterbarkeit
-
-Glassmorphism, Liquid-Glass und moderne Interface-Effekte
-
-Balance zwischen visueller Wirkung und Bedienbarkeit
-
-Interface-Prinzipien
-
-Clarity · Hierarchy · Consistency · Motion · Accessibility · Responsiveness
-
-Cloud & Integration Layer
-
-Verbindungen zwischen Plattformen, APIs und Anwendungen
-
-Cloud- und Integrationslogik bildet die technische Verbindung zwischen den einzelnen Bereichen.
-
-Kenntnisse
+<img src="https://skillicons.dev/icons?i=cloudflare" width="48" alt="Cloudflare"/>
 
 Cloudflare Workers
 
-REST-Schnittstellen
+Serverless Logic
 
-Webhooks und Trigger
+</td>
+</tr>
+</table>
 
-JSON-Datenstrukturen
+Design & Motion
 
-API-Authentifizierung auf Grundlagenebene
+Visuelle Systeme mit klarer Nutzerführung
 
-Datenprüfung und Datenumwandlung
+Design, Animation und wiederverwendbare Komponenten für hochwertige Interfaces.
 
-Routing von Anfragen
+<table>
+<tr>
+<td align="center" width="25%">
 
-serverlose Funktionen
+<img src="https://skillicons.dev/icons?i=figma" width="48" alt="Figma"/>
 
-Fehler- und Statusbehandlung
+Figma
 
-Verbindung von Website, Formular, E-Mail und Automation
+UI & Layout
 
-Übergabe an externe Dienste
+</td>
+<td align="center" width="25%">
 
-schlanke Integrationen ohne unnötig große Infrastruktur
+<img src="https://cdn.simpleicons.org/framer/0055FF" width="48" alt="Framer Motion"/>
 
-Zertifikate & Qualifikationen
+Framer Motion
+
+React Animationen
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://cdn.simpleicons.org/greensock/0AE448" width="48" alt="GSAP"/>
+
+GSAP
+
+Advanced Motion
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://cdn.simpleicons.org/materialdesign/757575" width="48" alt="Design Systems"/>
+
+Design Systems
+
+Konsistente UI
+
+</td>
+</tr>
+</table>
+
+Tools
+
+Entwicklung und Projektstruktur
+
+Werkzeuge für sauberen Code, Versionierung und moderne Workflows.
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+<img src="https://skillicons.dev/icons?i=git" width="48" alt="Git"/>
+
+Git
+
+Versionskontrolle
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://skillicons.dev/icons?i=github" width="48" alt="GitHub"/>
+
+GitHub
+
+Repos & Projekte
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://skillicons.dev/icons?i=vscode" width="48" alt="VS Code"/>
+
+VS Code
+
+Development Setup
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://skillicons.dev/icons?i=vercel" width="48" alt="Vercel"/>
+
+Vercel
+
+Deployment
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=wordpress" width="48" alt="WordPress"/>
+
+WordPress
+
+Content Websites
+
+</td>
+<td align="center">
+
+<img src="https://cdn.simpleicons.org/postman/FF6C37" width="48" alt="Postman"/>
+
+Postman
+
+API Testing
+
+</td>
+<td align="center">
+
+<img src="https://cdn.simpleicons.org/cursor/FFFFFF" width="48" alt="Cursor"/>
+
+Cursor
+
+AI Development
+
+</td>
+<td align="center">
+
+<img src="https://cdn.simpleicons.org/anthropic/D97757" width="48" alt="Claude Code"/>
+
+Claude Code
+
+Code Workflows
+
+</td>
+</tr>
+</table>
+
+Automation
+
+Verbindungen zwischen Tools und Plattformen
+
+Automatisierte Prozesse für Content, Kommunikation, Daten und interne Abläufe.
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+<img src="https://cdn.simpleicons.org/zapier/FF4F00" width="48" alt="Zapier"/>
+
+Zapier
+
+App-Verbindungen
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://cdn.simpleicons.org/n8n/EA4B71" width="48" alt="n8n"/>
+
+n8n
+
+Workflow Automation
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://cdn.simpleicons.org/openai/10A37F" width="48" alt="ChatGPT"/>
+
+ChatGPT
+
+Content & Prozesse
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://cdn.simpleicons.org/slack/4A154B" width="48" alt="Slack"/>
+
+Slack
+
+Team Workflows
+
+</td>
+</tr>
+</table>
+
+Services
+
+Digitale Lösungen aus einer Hand
+
+Konzeption, Gestaltung, Entwicklung und Automation in einem klaren System.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-🏆 Social Media Zertifikat
+🌐 Websites
 
-Qualifikation im Bereich Social Media und digitale Kommunikation.
+Moderne digitale Auftritte
 
-Abgedeckte Themen
+Responsive Websites, Landingpages und Portfolios mit klarer Struktur, hochwertiger Gestaltung und starken Animationen.
 
-Social-Media-Grundlagen
-
-Content-Planung
-
-Plattformverständnis
-
-digitale Kommunikation
-
-Zielgruppenorientierung
-
-strukturierte Veröffentlichung
-
-Bewertung und Weiterentwicklung von Inhalten
-
-Der exakte Aussteller und die offizielle Zertifikatsbezeichnung können hier ergänzt werden.
+React Next.js GSAP Responsive Design
 
 </td>
 <td width="50%" valign="top">
 
-📚 Kontinuierliche Weiterbildung
+📱 Social Media
 
-Aktuelle Schwerpunkte meiner fachlichen Entwicklung:
+Content und Plattform-Workflows
 
-React und komponentenbasierte Frontends
+Planung, Strukturierung und Automatisierung von Social-Media-Prozessen für mehrere Plattformen.
 
-TypeScript und Next.js
+Instagram TikTok LinkedIn Automation
 
-Java und Backend-Grundlagen
+</td>
+</tr>
 
-Node.js und Express
+<tr>
+<td width="50%" valign="top">
 
-APIs und Cloudflare Workers
+✉️ Newsletter
 
-GSAP und Motion Design
+Automatisierte Kommunikation
 
-n8n und Workflow Automation
+Newsletter, Willkommensstrecken, Follow-ups und Kontaktprozesse mit klaren Abläufen.
 
-AI-gestützte Entwicklungsprozesse
+E-Mail Flows Segmente CRM Leads
+
+</td>
+<td width="50%" valign="top">
+
+🤖 AI Workflows
+
+Intelligente Prozessunterstützung
+
+AI-gestützte Workflows für Inhalte, Anfragen, Assistenten und wiederkehrende Aufgaben.
+
+ChatGPT Claude n8n APIs
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+🔗 API Integrationen
+
+Systeme sinnvoll verbinden
+
+APIs, Webhooks und Cloud-Funktionen für Datenaustausch und automatisierte Abläufe.
+
+REST JSON Cloudflare Webhooks
+
+</td>
+<td width="50%" valign="top">
+
+🎨 UI Systems
+
+Konsistente digitale Produkte
+
+Wiederverwendbare Komponenten, klare Design-Systeme und moderne Interface-Strukturen.
+
+Figma React Motion Design Systems
+
+</td>
+</tr>
+</table>
+
+Zertifikate
+
+Fachliche Qualifikation
+
+<table>
+<tr>
+<td width="100%" align="center">
+
+🏆 Social Media Zertifikat
+
+Kenntnisse in Social-Media-Grundlagen, Content-Planung, Plattformverständnis und digitaler Kommunikation.
+
+Content Strategy Plattformen Zielgruppen Kommunikation
 
 </td>
 </tr>
@@ -499,112 +471,34 @@ AI-gestützte Entwicklungsprozesse
 
 Featured Project
 
-<table>
-<tr>
-<td width="62%" valign="top">
-
 Çağdaş Portfolio
 
-Eine interaktive Portfolio-Plattform, die Webdesign, Frontend-Entwicklung, Motion Design und Automation visuell miteinander verbindet.
-
-Projektbestandteile
-
-moderner Hero-Bereich
-
-responsive Benutzeroberfläche
-
-GSAP- und ScrollTrigger-Animationen
-
-Social-Media-Showcase
-
-Automation Cards
-
-Plattform- und Servicebereiche
-
-interaktive Komponenten
-
-moderne Glows und Glass-Effekte
-
-strukturierte mobile Darstellung
-
-Fokus auf klare visuelle Führung
-
-Technologien
-
-React · JavaScript · CSS · GSAP · ScrollTrigger · Framer Motion
-
-</td>
-<td width="38%" align="center" valign="middle">
-
-Live ansehen
-
-
-
-<br>
-
-
-
-</td>
-</tr>
-</table>
-
-Product Mindset
+Eine interaktive Portfolio-Website mit modernen Animationen, Social-Media-Showcases und Automation-Bereichen.
 
 <table>
 <tr>
-<td align="center" width="25%">
-
-01
-
-Understand
-
-Ziele, Zielgruppen und Anforderungen zuerst klar definieren.
-
-</td>
-<td align="center" width="25%">
-
-02
-
-Structure
-
-Inhalte, Komponenten und Abläufe sinnvoll organisieren.
-
-</td>
-<td align="center" width="25%">
-
-03
-
-Design & Build
-
-Visuelle Qualität und technische Umsetzung verbinden.
-
-</td>
-<td align="center" width="25%">
-
-04
-
-Refine
-
-Performance, Bedienung und Details konsequent verbessern.
-
-</td>
+<td align="center" width="20%"><strong>React</strong></td>
+<td align="center" width="20%"><strong>GSAP</strong></td>
+<td align="center" width="20%"><strong>ScrollTrigger</strong></td>
+<td align="center" width="20%"><strong>Responsive</strong></td>
+<td align="center" width="20%"><strong>Motion UI</strong></td>
 </tr>
 </table>
 
 <div align="center">
 
-Let’s build something clear, modern and useful.
+
+
+</div>
+
+<div align="center">
+
+Kontakt
+
+Bereit für moderne digitale Produkte
 
 
 
-
-
-<br>
-
-Design × Frontend × Backend × Automation
-
-<br>
-
-© 2026 Çağdaş
+Design · Frontend · Backend · Automation
 
 </div>
