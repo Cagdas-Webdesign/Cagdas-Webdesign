@@ -114,7 +114,7 @@
 </td>
 
 <td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://img.icons8.com/color/512/cloudflare.png" width="55" height="55" alt="Cloudflare" />
+  <img src="https://svgsilh.com/svg/2798952.svg" width="55" height="55" alt="Cloudflare" />
   <br><br>
   <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
     <strong style="color: #ffffff; font-size: 14px;">Cloudflare</strong>
@@ -141,7 +141,7 @@
 <hr>
 <br>
 
-## 🤖 03. AUTOMATION, AI & TOOLS
+## ✉️ 03. NEWSLETTER & MARKETING AUTOMATION
 
 <br>
 
@@ -149,44 +149,80 @@
 <table border="0" cellspacing="15" cellpadding="0">
 <tr>
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/n8n.svg" width="55" height="55" alt="n8n" />
+<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
+  <img src="https://api.iconify.design/simple-icons:brevo.svg?color=%2300b2a9" width="55" height="55" alt="Brevo" />
   <br><br>
   <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">n8n Flows</strong>
+    <strong style="color: #ffffff; font-size: 14px;">Brevo</strong>
   </div>
   <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Complex Multi-Step Process Automation</span>
+  <span style="color: #8b949e; font-size: 12px;">Automatisierte Mail-Flows, CRM-Sync & Transactional Mails</span>
 </td>
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://img.icons8.com/color/512/openai-api.png" width="55" height="55" alt="OpenAI" />
+<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
+  <img src="https://api.iconify.design/simple-icons:mailchimp.svg?color=%23ffe01b" width="55" height="55" alt="Mailchimp" />
   <br><br>
   <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">OpenAI API</strong>
+    <strong style="color: #ffffff; font-size: 14px;">Mailchimp</strong>
   </div>
   <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Generative AI Systems & Smart Routing</span>
+  <span style="color: #8b949e; font-size: 12px;">Audience Tagging, Segmente & Lead-Nurturing Kampagnen</span>
 </td>
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/figma.svg" width="55" height="55" alt="Figma" />
+<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
+  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/n8n.svg" width="55" height="55" alt="n8n Automation" />
   <br><br>
   <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Figma UI</strong>
+    <strong style="color: #ffffff; font-size: 14px;">Webhook Engine</strong>
   </div>
   <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Atomic Design Systems & Interactive Prototypes</span>
+  <span style="color: #8b949e; font-size: 12px;">Automatisierte Lead-Erfassung & Multi-Channel Routing</span>
 </td>
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/git.svg" width="55" height="55" alt="Git" />
+</tr>
+</table>
+</div>
+
+<br>
+<hr>
+<br>
+
+## 🤖 04. AI CHATBOTS & SMART SYSTEMS
+
+<br>
+
+<div align="center">
+<table border="0" cellspacing="15" cellpadding="0">
+<tr>
+
+<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
+  <img src="https://api.iconify.design/simple-icons:openai.svg?color=%2310a37f" width="55" height="55" alt="OpenAI API" />
   <br><br>
   <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Git & Vercel</strong>
+    <strong style="color: #ffffff; font-size: 14px;">LLM Integration</strong>
   </div>
   <br><br>
-  <span style="color: #8b949e; font-size: 12px;">CI/CD Pipelines, Version Control & Edge Deployments</span>
+  <span style="color: #8b949e; font-size: 12px;">OpenAI API, Claude & Generative Text/Data Pipelines</span>
+</td>
+
+<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
+  <img src="https://api.iconify.design/fluent-emoji-flat:robot.svg" width="55" height="55" alt="Custom GPTs" />
+  <br><br>
+  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
+    <strong style="color: #ffffff; font-size: 14px;">Custom GPTs</strong>
+  </div>
+  <br><br>
+  <span style="color: #8b949e; font-size: 12px;">Maßgeschneiderte KI-Assistenten für Business-Workflows</span>
+</td>
+
+<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
+  <img src="https://api.iconify.design/lucide:bot-message-square.svg?color=%2358a6ff" width="55" height="55" alt="AI Chatbots" />
+  <br><br>
+  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
+    <strong style="color: #ffffff; font-size: 14px;">Native AI Chatbots</strong>
+  </div>
+  <br><br>
+  <span style="color: #8b949e; font-size: 12px;">Interaktive UI-Bots mit Context-Memory & System-Prompts</span>
 </td>
 
 </tr>
