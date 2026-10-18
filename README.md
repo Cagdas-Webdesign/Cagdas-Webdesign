@@ -1,278 +1,143 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="Çağdaş Uçar" src="assets/header-dark.svg" width="100%">
+</picture>
 
-<!-- HERO TYPOGRAFIE BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=220&section=header&text=ÇAĞDAŞ&fontSize=68&fontColor=ffffff&animation=twinkling&desc=Frontend%20Architecture%20%E2%80%A2%20UI/UX%20Design%20Systems%20%E2%80%A2%20Workflow%20Automation&descSize=16&descAlign=50&descAlignY=75" width="100%" />
+### Full-Stack Development · Python Backends · RAG Applications
 
-<br>
+I build complete web applications — from the interface a visitor uses to the Python backend and the
+language models behind it. My focus is retrieval-augmented generation that stays reliable, secure
+and measurable: answers grounded in real sources, failures handled explicitly, and quality checked
+by tests and evaluation rather than asserted.
 
-### ⚡ High-End Web Applications, Design Systems & Automation Workflows
-*Skalierbarer Code, messerscharfe Ästhetik und datengetriebene Prozessautomatisierung.*
+**[Live Portfolio](https://cagdas-webdesign.github.io/portfolio/)** ·
+**[RAG Backend Repository](https://github.com/Cagdas-Webdesign/portfolio-rag-backend)** ·
+**[ucarcagdas18@gmail.com](mailto:ucarcagdas18@gmail.com)**
 
-<br>
+---
 
-<!-- ACTION BUTTONS -->
-<a href="https://deine-website.de">
-  <img src="https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-000000?style=for-the-badge&logo=apple&logoColor=white" height="42" />
-</a>
-&nbsp;
-<a href="mailto:deine-email@beispiel.de">
-  <img src="https://img.shields.io/badge/💬_JETZT_ANFRAGEN-FF385C?style=for-the-badge&logoColor=white" height="42" />
-</a>
-&nbsp;
-<a href="https://linkedin.com">
-  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="42" />
-</a>
+## Featured project — Portfolio RAG Backend
 
-</div>
+**[portfolio-rag-backend](https://github.com/Cagdas-Webdesign/portfolio-rag-backend)** · Python 3.13 · FastAPI · v1.3.0 in production
 
-<br>
-<hr>
-<br>
+An assistant that answers questions about my work has an unusual failure mode: an invented skill or
+project is a false statement about a real person. This backend answers only from a reviewed,
+version-controlled knowledge base, verifies each answer against the passages it cites, and says so
+when the knowledge base does not cover a question.
 
-## 📱 01. FRONTEND ENGINEERING & UI
+**Why a custom pipeline.** Ingestion, chunking, retrieval, context assembly, grounding and citation
+validation are implemented in the repository instead of an orchestration framework such as
+LangChain. These are the parts that decide answer quality, so they are kept small enough to measure
+and change deliberately — a design decision for this system, not a verdict on frameworks.
 
-<br>
+```mermaid
+flowchart TD
+    UI["React portfolio"] --> EDGE["Cloudflare Worker<br/>Turnstile · rate limits"]
+    EDGE --> API["FastAPI on Google Cloud Run"]
+    API -->|"query embedding"| EMB["Mistral<br/>mistral-embed"]
+    API -->|"semantic search"| VEC["Cloudflare Vectorize"]
+    API -->|"answer generation"| GEN["Cloudflare Workers AI<br/>gpt-oss-120b"]
+    API -.->|"grounding check (optional provider)"| GRD["Groq<br/>gpt-oss-20b"]
+    API --> OUT["Answer + citations<br/>resolved by the backend"]
+```
 
-<div align="center">
-<table border="0" cellspacing="15" cellpadding="0">
-<tr>
+**How a request flows.** The question is embedded with Mistral, matched against public chunks in
+Cloudflare Vectorize, and assembled into a bounded context. Workers AI generates the answer; a
+second call — on the generator itself or, when configured, on Groq — checks the answer against the
+passages it cites. Only citations that resolve to chunks retrieved for that request are published.
+If nothing relevant is retrieved, the service returns a fixed "not covered" answer without calling
+a language model at all.
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/react.svg" width="55" height="55" alt="React" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">React 18+</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Moderne Native Webanwendungen & Component Architecture</span>
-</td>
+**Security boundaries.**
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/nextjs.svg" width="55" height="55" alt="Next.js" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Next.js 14</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">App Router, Server Components & SEO Performance</span>
-</td>
+- Public-only retrieval is built into the query, not passed as a parameter.
+- Retrieved text can never become a system instruction.
+- The API refuses requests that bypass the edge gateway.
+- Production refuses to start with development stand-ins.
+- Questions, prompts and answers are never logged.
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/typescript.svg" width="55" height="55" alt="TypeScript" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">TypeScript</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Strict Typing, Generics & Scalable Architecture</span>
-</td>
+Residual risks, including prompt injection, are documented in
+[SECURITY.md](https://github.com/Cagdas-Webdesign/portfolio-rag-backend/blob/main/docs/SECURITY.md).
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/tailwindcss.svg" width="55" height="55" alt="Tailwind" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Tailwind CSS</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Design Tokens, Utility-First & Custom Themes</span>
-</td>
+**Architecture.** Modular monolith with ports and adapters: every model and store sits behind an
+interface, and one composition module turns configuration into concrete providers. Eight
+[architecture decision records](https://github.com/Cagdas-Webdesign/portfolio-rag-backend/tree/main/docs/adr)
+document the choices that would be expensive to reverse.
 
-</tr>
-</table>
-</div>
+### How quality is verified
 
-<br>
-<hr>
-<br>
+| Evidence | Result | Scope |
+| --- | --- | --- |
+| Automated tests | 2,863 collected · 2,855 pass offline · 8 live tests skipped without credentials | documented for v1.3.0 |
+| Quality gate | Ruff · mypy `strict` · pytest · Docker smoke test, on every push | [CI workflow](https://github.com/Cagdas-Webdesign/portfolio-rag-backend/blob/main/.github/workflows/ci.yml) |
+| Release acceptance | 24/24 questions · 0 pipeline errors · 38/38 citations verified · 4/4 unanswerable questions refused | `v1.2.0-accepted` |
+| Retrieval | hit@1 75 % · hit@3 85 % · hit@5 90 % · MRR 0.817 (20 answerable questions) | `v1.2.0-accepted` |
 
-## ⚙️ 02. BACKEND & CLOUD INTEGRATIONS
+The acceptance and retrieval figures come from the live release acceptance of **v1.2.0**
+([full report](https://github.com/Cagdas-Webdesign/portfolio/blob/main/public/evaluation/final-acceptance-v1.2.0.md));
+they are not results for v1.3.0. How each number was measured is described in the
+[evaluation guide](https://github.com/Cagdas-Webdesign/portfolio-rag-backend/blob/main/evaluation/README.md).
 
-<br>
+---
 
-<div align="center">
-<table border="0" cellspacing="15" cellpadding="0">
-<tr>
+## Featured project — Interactive React Portfolio
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/nodejs.svg" width="55" height="55" alt="Node.js" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Node.js</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">High-Performance Async Runtimes & Express Routing</span>
-</td>
+**[Live site](https://cagdas-webdesign.github.io/portfolio/)** ·
+**[Repository](https://github.com/Cagdas-Webdesign/portfolio)** · React 19 · JavaScript · Vite 8
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/java.svg" width="55" height="55" alt="Java" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Java OOP</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Object-Oriented Architecture & Robust Logic</span>
-</td>
+A single-page portfolio that works as a frontend sample on its own and as the user interface of the
+RAG system above.
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://svgsilh.com/svg/2798952.svg" width="55" height="55" alt="Cloudflare" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Cloudflare</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Serverless Edge Workers & Security Pipelines</span>
-</td>
+- **Portfolio assistant** — talks to the backend through the Cloudflare Worker, shows answers with
+  their sources, and handles rate limits and timeouts as explicit error states.
+- **Technical storytelling** — interactive visualisations of the RAG architecture and knowledge
+  pipeline, plus the release-acceptance report rendered inside the site.
+- **Motion and interaction** — GSAP with ScrollTrigger, Framer Motion and Lottie, with
+  `prefers-reduced-motion` respected.
+- **Delivery** — responsive layout, linted with oxlint, tested with `node:test`, and deployed to
+  GitHub Pages through a GitHub Actions workflow.
 
-<td align="center" width="25%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/postman.svg" width="55" height="55" alt="Postman" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">REST APIs</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Endpoint Testing, JSON Schemas & Webhooks</span>
-</td>
+---
 
-</tr>
-</table>
-</div>
+## Engineering principles
 
-<br>
-<hr>
-<br>
+- **Evidence-based evaluation** — retrieval is scored with hit@k and MRR, every failing question is
+  reported by name, and thresholds change only after a measurement.
+- **Secure defaults** — the system fails closed: no evidence, no answer; an unverified answer is not
+  published; a misconfigured production service does not start.
+- **Explicit architecture decisions** — significant choices are written down as ADRs, and
+  deliberately rejected options (re-ranking, agents, microservices) are documented with reasons.
+- **Automated quality gates** — lint, strict type checking, tests and a container smoke test run in
+  CI before anything is considered done.
+- **Traceability and observability** — every request carries an ID, and each provider call leaves a
+  content-free telemetry record. Operational metrics are reviewed in a separate dashboard built on
+  Cloud Logging, Cloud Monitoring and Cloudflare Analytics; its source is not public.
+- **Transparent AI-assisted development** — I direct architecture, scope and quality decisions;
+  implementation is AI-assisted, and every change passes the same automated checks and review.
 
-## ✉️ 03. NEWSLETTER & MARKETING AUTOMATION
+---
 
-<br>
+## Technologies
 
-<div align="center">
-<table border="0" cellspacing="15" cellpadding="0">
-<tr>
+**Used in the featured projects**
 
-<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://api.iconify.design/simple-icons:brevo.svg?color=%2300b2a9" width="55" height="55" alt="Brevo" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Brevo</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Automatisierte Mail-Flows, CRM-Sync & Transactional Mails</span>
-</td>
+| Area | Technologies |
+| --- | --- |
+| Backend | Python 3.13 · FastAPI · Pydantic v2 · Uvicorn · pytest · Ruff · mypy |
+| AI & retrieval | Mistral embeddings · Cloudflare Vectorize · Cloudflare Workers AI · Groq |
+| Frontend | React 19 · JavaScript · Vite 8 · GSAP · Framer Motion · Lottie |
+| Infrastructure | Docker · Google Cloud Run · Cloudflare Workers & Turnstile · GitHub Actions · GitHub Pages |
 
-<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://api.iconify.design/simple-icons:mailchimp.svg?color=%23ffe01b" width="55" height="55" alt="Mailchimp" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Mailchimp</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Audience Tagging, Segmente & Lead-Nurturing Kampagnen</span>
-</td>
+**Additional experience** — not used in the repositories above:
+TypeScript · Java · PHP · WordPress · WooCommerce · PostgreSQL · Supabase · n8n and workflow automation
 
-<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-hero/main/icons/n8n.svg" width="55" height="55" alt="n8n Automation" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Webhook Engine</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Automatisierte Lead-Erfassung & Multi-Channel Routing</span>
-</td>
+---
 
-</tr>
-</table>
-</div>
+## Contact
 
-<br>
-<hr>
-<br>
+I am looking for opportunities in software development — Python backends, full-stack web
+applications and AI / RAG integration.
 
-## 🤖 04. AI CHATBOTS & SMART SYSTEMS
-
-<br>
-
-<div align="center">
-<table border="0" cellspacing="15" cellpadding="0">
-<tr>
-
-<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://api.iconify.design/simple-icons:openai.svg?color=%2310a37f" width="55" height="55" alt="OpenAI API" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">LLM Integration</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">OpenAI API, Claude & Generative Text/Data Pipelines</span>
-</td>
-
-<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://api.iconify.design/fluent-emoji-flat:robot.svg" width="55" height="55" alt="Custom GPTs" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Custom GPTs</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Maßgeschneiderte KI-Assistenten für Business-Workflows</span>
-</td>
-
-<td align="center" width="33%" style="background-color: #161b22; border-radius: 20px; padding: 20px;">
-  <img src="https://api.iconify.design/lucide:bot-message-square.svg?color=%2358a6ff" width="55" height="55" alt="AI Chatbots" />
-  <br><br>
-  <div style="background-color: #21262d; border-radius: 50px; padding: 6px 16px; display: inline-block;">
-    <strong style="color: #ffffff; font-size: 14px;">Native AI Chatbots</strong>
-  </div>
-  <br><br>
-  <span style="color: #8b949e; font-size: 12px;">Interaktive UI-Bots mit Context-Memory & System-Prompts</span>
-</td>
-
-</tr>
-</table>
-</div>
-
-<br>
-<hr>
-<br>
-
-## 📜 QUALIFIKATIONEN & CERTIFICATIONS
-
-<br>
-
-<div align="center">
-<table border="0" width="100%">
-<tr>
-<td style="background-color: #161b22; border-radius: 20px; padding: 25px;">
-  <div style="background-color: #0d1117; border-radius: 50px; padding: 6px 18px; display: inline-block;">
-    <span style="color: #58a6ff; font-weight: bold; font-size: 13px;">CERTIFIED EXECUTIVE</span>
-  </div>
-  <h3 style="color: #ffffff; margin-top: 15px; margin-bottom: 5px;">Social Media & Communication Strategy</h3>
-  <p style="color: #8b949e; font-size: 13px; margin: 0;">Strategy Frameworks · Audience Behavior Analysis · Multi-Channel Automation · Content Systems Architecture</p>
-</td>
-</tr>
-</table>
-</div>
-
-<br>
-<hr>
-<br>
-
-<div align="center">
-
-## 💬 GET IN TOUCH
-
-**Bereit für erstklassige Webseiten, sauber strukturierten Code und automatisierte Prozesse?**
-
-<br>
-
-<a href="mailto:deine-email@beispiel.de">
-  <img src="https://img.shields.io/badge/✉️_PROJEKT_STARTEN-E--MAIL_SENDEN-FF385C?style=for-the-badge&logoColor=white" height="48" />
-</a>
-&nbsp;
-<a href="https://deine-website.de">
-  <img src="https://img.shields.io/badge/🌐_WEBSITE_BESUCHEN-000000?style=for-the-badge&logo=apple&logoColor=white" height="48" />
-</a>
-
-<br><br>
-
-`Frontend Architecture` · `UI/UX Engineering` · `Workflow Automation`
-
-</div>
+**[ucarcagdas18@gmail.com](mailto:ucarcagdas18@gmail.com)** ·
+**[Live Portfolio](https://cagdas-webdesign.github.io/portfolio/)**
